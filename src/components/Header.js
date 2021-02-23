@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header(){
   return (
-    <>
+    <React.Fragment>
       <h1>Help Queue</h1>
       <ul>
         <li>
@@ -13,7 +13,7 @@ function Header(){
           <Link to="/signin">Sign In</Link>
         </li>
       </ul>
-    </>
+    </React.Fragment>
   );
 }
 
